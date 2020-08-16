@@ -1,37 +1,47 @@
-4. Exposing and invoking the API
-4.1. API Management Login
-Open the Red Hat 3scale API Management Platform Login screen.
+# Exposing and invoking the API
 
-Select the Red Hat Single Sign On option. This triggers an OAuth Flow and redirects you back to the Red Hat 3scale API Management Platform Dashboard.
+## API Management Login
+
+1. Open the [Red Hat 3scale API Management Platform][3]: Login screen. Select the Red Hat Single Sign On option. This triggers an OAuth Flow and redirects you back to the Red Hat 3scale API Management Platform Dashboard.
+
+![Login](images/LoginTo3Scale.png)
 
 Dismiss the How does 3Scale work? option which is displayed the first time you log in to Red Hat 3scale API Management Platform. The main Dashboard is displayed.
+
+![Login](images/3ScaleDashboard.png)
+
 
 Check your workCheck your work
 Can you see the Red Hat 3scale API Management Platform Dashboard and navigate the main menu?
 
-Check your work
 
-Yes
+## Adding the App Endpoint to Red Hat 3scale
 
-No
-4.2. Adding the App Endpoint to Red Hat 3scale
-From the APIs section of the Dashboard, select the New Product item.
+1. From the APIs section of the Dashboard, select the New Product item.
 
-Select the Import from OpenShift option. If this option is not enabled, click Authenticate to enable this option
+![Login](images/AddProduct.png)
 
-Choose the fuse option from the Namespace list.
+2. Select the Import from OpenShift option. If this option is not enabled, click ```Authenticate to enable this option```.
 
-Choose i-greeting-api from the Name list.
+![Login](images/EnableAuth.png)
 
-Click Create Product.
+3. In the next screen click on Allow Selected Permissions.
 
-This process can take a few minutes.
+![Login](images/AllowPermissions.png)
 
-Edit the API:
+4. Choose the fuse option from the Namespace list. Choose i-greeting-api from the Name list. Click Create Product.
 
-Choose Product: i-greeting-api from the top navigation menu to view the Overview page.
+![Login](images/ImportAPI.png)
 
-Select the Settings item in the Integration dropdown menu.
+___
+:information_source: This process can take a few minutes.
+___
+
+## Edit the API:
+
+1. Choose Product: i-greeting-api from the top navigation menu to view the Overview page.
+
+2. Select the Settings item in the Integration dropdown menu.
 
 In the Staging Public Base URL, enter:
 
@@ -152,3 +162,4 @@ ____
 
 [1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
 [2]: https://fuse-2dd27faf-dfda-11ea-a6a0-0a580a010007.apps.dfw-7226.example.opentlc.com/
+[3]: https://3scale-admin.apps.dfw-7226.example.opentlc.com/
