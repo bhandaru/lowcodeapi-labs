@@ -8,11 +8,16 @@ In this procedure, you create an integration with an API and include a data type
 ```
 Username: evalsXX
 Password: peTG3NvNzcTK1bi
-```.
+```
 
 2. Choose ```Connections``` link from the left navigation  menu to create a new Database connection.
 
 ![Login](images/CreateDBConnection.png)
+
+3. Choose ```PostgresDB``` database connection to set the DB values. Note that this is already populated with the values. Rename the connection object by clicking on the ```Pencil``` icon. Click ```Edit``` button to validate the connection details. It should say ```Database has been successfully validated.```.
+
+![Login](images/ContactsDBCreated.png)
+
 
 Choose Integrations from the left navigation menu.
 
