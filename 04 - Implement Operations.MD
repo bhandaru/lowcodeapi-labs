@@ -78,7 +78,10 @@ select first_name, last_name, company from contact
 
 ![Login](images/ListResponseMap.png)
 
-7. Click ```Publish``` to save the integration and publish to runtime.
+7. Click ```Publish``` to save the integration and publish to runtime. Monitor the progress.
+
+![Login](images/Published.png)
+
 
 <p align="center">
   <a href="/03%20-%20Creating%20API%20in%20Fuse%20Online.MD">Previous Exercise</a> &nbsp;|
