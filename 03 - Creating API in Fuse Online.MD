@@ -104,31 +104,72 @@ Operation ID field: createContact
 
 ![Login](images/CreateContactRequestResponse.png)
 
-10. Click Save in the top right corner of the page to save your work. The New Integration wizard is displayed.
-
-11. Click Next.
-
 ### Creating a GET Resource Path
 
-1. 
+1. Just like above,  create additional path to list contacts. Click Add a path under the Paths heading on the left of the API Designer screen.  
+![Login](images/CreatePaths.png)
+
+2. In the window that appears, enter the following in the Path field. Click Add to confirm your entry.
+```
+/listContacts
+```
+![Login](images/AddListContactsPath.png)
+
+3. Click your new ```/listContacts``` endpoint under the Paths heading.
+
+4. Click ```Add Operation``` under the ```GET``` icon in the Operations section on the right.
+![Login](images/AddListContactOperation.png)
+
+5. Enter the following in the Summary field:
+
+```
+Summary field: listContacts
+Operation ID field: listContacts
+```
+![Login](images/ListContactsOperation.png)
+
+6. In the Responses section click Add a response.
+
+7. In the window that appears choose 200 OK as the option.
+    - Click Add.
+    - Click No description beside the 200 OK response and enter the following in the Description field: ```Create contact response```
+
+8. Choose ```Array``` as the type. Fuse Online automatically completes the type ```Contact``` as ```String```.
+
+![Login](images/ListContactsResponse.png)
+
+### Save the API specification
+
+10. Click Save in the top right corner of the page to save your work. The New Integration wizard is displayed.
+
+11. Click Next. You should now see the operations in the Contact API as below.
+
+![Login](images/APIOperations.png)
 
 
-Click Publish on the New Integration wizard screen.
+### Save and Publish the integration.
 
-When prompted to Give this integration a name:
+1. Click Publish on the New Integration wizard screen. 
 
-Enter the following in the Integration Name field:
+2. When prompted to Give this integration a name.
 
-Greeting Integration
+    - Enter the following in the Integration Name field:
+      ```
+      Contact API Integration
+      ```
+    - Enter the following in the Description field:
+      ```
+      My Contact API
+      ```
 
-Enter the following in the Description field:
+3. Click Save and Publish to save your API design.
 
-my greeting api
-
-Click Save and Publish to save your API design.
+![Login](images/SaveAndPublish.png)
 
 Check your workCheck your work
 Is a Greeting Integration entry listed in the Fuse Online Home screen?
+
+![Login](images/SeeProgress.png)
 
 
 <p align="center">
