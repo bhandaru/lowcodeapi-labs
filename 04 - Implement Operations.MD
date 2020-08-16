@@ -62,7 +62,7 @@ insert into contact(first_name, last_name, company) values(:#firstName, :#lastNa
 
 ![Login](images/InvokeSQL.png)
 
-4. Enter the SQL select statement as below into the dialog screen.
+4. Enter the SQL select statement as below into the dialog screen and click ```Next``` to return to integration flow.
 
 ```
 select first_name, last_name, company from contact
@@ -70,10 +70,18 @@ select first_name, last_name, company from contact
 
 ![Login](images/EnterSQLSelect.png)
 
+5. Click on ```+``` button to **Add a Step** to the flow after the Database step. Choose **Data Mapper**.
 
+![Login](images/AddDataMapperListResponse.png)
+
+6. Add mapping to the response as below. Click ```Done``` when completed.
+
+![Login](images/ListResponseMap.png)
+
+7. Click ```Publish``` to save the integration and publish to runtime.
 
 <p align="center">
-  <a href="/README.md">Previous Exercise</a> &nbsp;|
+  <a href="/03%20-%20Creating%20API%20in%20Fuse%20Online.MD">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
   &nbsp;<a href="/02%20-%20Get%20Started.MD">Next Exercise</a>
 </p>
