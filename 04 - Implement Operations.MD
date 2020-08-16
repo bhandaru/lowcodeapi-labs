@@ -1,7 +1,11 @@
 
 # Implementing and publishing the API in Fuse Online  
 
+____
+
 #  Implementing the API Operations  
+
+____
 
 ## Implement createContact operation
 
@@ -48,6 +52,8 @@ insert into contact(first_name, last_name, company) values(:#firstName, :#lastNa
 
 10. Save the flow to the Contact API Integration.
 
+____
+
 ## Implement listContacts operation
 
 1.  Click on ```Create Flow``` button to implement the ```/listContacts``` operation.
@@ -82,6 +88,9 @@ select first_name, last_name, company from contact
 
 ![Login](images/Published.png)
 
+____
+## Congratulations you have completed this exercise! Proceed to the next exercise.
+____
 
 <p align="center">
   <a href="/03%20-%20Creating%20API%20in%20Fuse%20Online.MD">Previous Exercise</a> &nbsp;|
