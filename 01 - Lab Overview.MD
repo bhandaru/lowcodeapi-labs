@@ -2,6 +2,14 @@
 
 This Solution Pattern demonstrates how to implement a container-native OpenAPI RESTful API without coding.
 
+## What you will learn
+
+1. Create contract-first APIs using APICurio
+2. Implementing API Operations using Fuse
+    * HTTP POST
+    * HTTP GET
+3. API Management using 3Scale
+
 ## Container-native applications
 
 Applications that are designed to run in a containerised environment.
@@ -13,14 +21,6 @@ A standard, programming language-agnostic interface description for REST APIs. R
 In this Solution Pattern you follow a design-first approach, based on the OpenAPI specification, to define a RESTful API that accepts a name parameter and echoes it back in the response body. You then use the resulting Open API definition to generate the code for your API and deploy it in a containerised environment.
 
 Following a design first approach to API development is self-documenting, and provides a clear API definition for partners and end-users of your API. It also allows you to identify important design decisions prior to coding and deployment.
-
-## What you will learn
-
-1. Create contract-first APIs using APICurio
-2. Implementing API Operations using Fuse
-    * HTTP POST
-    * HTTP GET
-3. API Management using 3Scale
 
 ## Tasks to complete this Solution Pattern - 70minutes
 
