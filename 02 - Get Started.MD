@@ -28,7 +28,7 @@ Password: peTG3NvNzcTK1bi
 <p align="center">
   <a href="/README.md">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
-  &nbsp;<a href="/02%20-%20Get%20Started.MD">Next Exercise</a>
+  &nbsp;<a href="/03%20-%20Creating%20API%20in%20Fuse%20Online.MD">Next Exercise</a>
 </p>
 
 [1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
