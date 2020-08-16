@@ -173,9 +173,9 @@ Is a Greeting Integration entry listed in the Fuse Online Home screen?
 
 
 <p align="center">
-  <a href="/README.md">Previous Exercise</a> &nbsp;|
+  <a href="/02%20-%20Get%20Started.MD">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
-  &nbsp;<a href="/02%20-%20Get%20Started.MD">Next Exercise</a>
+  &nbsp;<a href="/04%20-%20Implement%20Operations.MD">Next Exercise</a>
 </p>
 
 [1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
