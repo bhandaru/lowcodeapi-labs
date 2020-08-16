@@ -1,7 +1,9 @@
 
 # Implementing and publishing the API in Fuse Online  
 
-## Implementing the API Operations  
+#  Implementing the API Operations  
+
+## Implement createContact operation
 
 1. Log in to the Red Hat [Fuse Online Console][2] if you are already not. Ensure you use your username assinged to you.
 ```
@@ -40,9 +42,35 @@ insert into contact(first_name, last_name, company) values(:#firstName, :#lastNa
 
 ![Login](images/MapCreateData.png)
 
-9. Map data to the final response. Click ```+``` to add a ```Data Mapper``` step. 
+9. Map data to the final response. Click ```+``` to add a ```Data Mapper``` step. Click ```Done``` when mapping is completed as shown below.
 
 ![Login](images/CreateResponseMap.png)
+
+10. Save the flow to the Contact API Integration.
+
+## Implement listContacts operation
+
+1.  Click on ```Create Flow``` button to implement the ```/listContacts``` operation.
+
+![Login](images/EditListContacts.png)
+
+2.  Click on ```+``` button to **Add a Step** to the flow. Choose **ContactsDB** created earlier in the lab.
+
+![Login](images/ChooseContactDB.png)
+
+3. Choose **Invoke SQL** by clicking the ```Select``` button. 
+
+![Login](images/InvokeSQL.png)
+
+4. Enter the SQL select statement as below into the dialog screen.
+
+```
+select first_name, last_name, company from contact
+```
+
+![Login](images/EnterSQLSelect.png)
+
+
 
 <p align="center">
   <a href="/README.md">Previous Exercise</a> &nbsp;|
