@@ -64,7 +64,7 @@ Enter the following JSON in the Enter JSON Example field:
 11. Check your workCheck your work. Is ```</>Contact``` listed under the Data Types on the API Designer screen?
 
 
-### Creating a POST Resource Path
+## Creating a POST Resource Path
 
 A Path represents an API endpoint/operation and the associated parameters required to invoke it.
 
@@ -104,7 +104,7 @@ Operation ID field: createContact
 
 ![Login](images/CreateContactRequestResponse.png)
 
-### Creating a GET Resource Path
+## Creating a GET Resource Path
 
 1. Just like above,  create additional path to list contacts. Click Add a path under the Paths heading on the left of the API Designer screen.  
 ![Login](images/CreatePaths.png)
@@ -138,7 +138,7 @@ Operation ID field: listContacts
 
 ![Login](images/ListContactsResponse.png)
 
-### Save the API specification
+## Save the API specification
 
 10. Click Save in the top right corner of the page to save your work. The New Integration wizard is displayed.
 
@@ -147,7 +147,7 @@ Operation ID field: listContacts
 ![Login](images/APIOperations.png)
 
 
-### Save and Publish the integration.
+## Save and Publish the integration.
 
 1. Click Publish on the New Integration wizard screen. 
 
@@ -166,7 +166,7 @@ Operation ID field: listContacts
 
 ![Login](images/SaveAndPublish.png)
 
-Check your workCheck your work
+## Check your workCheck your work
 Is a Greeting Integration entry listed in the Fuse Online Home screen?
 
 ![Login](images/SeeProgress.png)
