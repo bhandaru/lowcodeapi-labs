@@ -14,4 +14,19 @@ In this Solution Pattern you follow a design-first approach, based on the OpenAP
 
 Following a design first approach to API development is self-documenting, and provides a clear API definition for partners and end-users of your API. It also allows you to identify important design decisions prior to coding and deployment.
 
+## What you will learn
+
+1. Create contract-first APIs using APICurio
+2. Implementing API Operations using Fuse
+    * HTTP POST
+    * HTTP GET
+3. API Management using 3Scale
+
 ## Tasks to complete this Solution Pattern - 70minutes
+
+
+<p align="center">
+  <a href="/README.md">Previous Exercise</a> &nbsp;|
+  &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
+  &nbsp;<a href="/02%20-%20Installing%20Client.MD">Next Exercise</a>
+</p>
