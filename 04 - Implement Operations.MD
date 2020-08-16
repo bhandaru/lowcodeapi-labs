@@ -95,7 +95,7 @@ ____
 <p align="center">
   <a href="/03%20-%20Creating%20API%20in%20Fuse%20Online.MD">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
-  &nbsp;<a href="/02%20-%20Get%20Started.MD">Next Exercise</a>
+  &nbsp;<a href="/05%20-%20Exposing%20%26%20Invoking%20API.md">Next Exercise</a>
 </p>
 
 [1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
