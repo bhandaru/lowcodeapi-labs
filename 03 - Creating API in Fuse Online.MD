@@ -78,37 +78,40 @@ A Path represents an API endpoint/operation and the associated parameters requir
 ![Login](images/createContactPath.png)
 
 
-Click your new /greeting endpoint under the Paths heading.
+3. Click your new ```/createContact``` endpoint under the Paths heading.
 
-Click Add Operation under the POST icon in the Operations section on the right.
+4. Click ```Add Operation``` under the ```POST``` icon in the Operations section on the right.
+![Login](images/CreatePostOperation.png)
 
-Enter the following in the Summary field:
+5. Enter the following in the Summary field:
 
-Greet with name
+```
+Summary field: createContact
+Operation ID field: createContact
+```
 
-Enter the following in the Operation ID field:
+![Login](images/SetOperationName.png)
 
-greetname
+6. In the Request Body section, click Add a request body. Choose ```Contact``` as the type.
 
-In the Request Body section, click Add a request body.
+7. In the Responses section click Add a response.
 
-Choose Name as the type.
+8. In the window that appears choose 200 OK as the option.
+    - Click Add.
+    - Click No description beside the 200 OK response and enter the following in the Description field: ```Create contact response```
 
-In the Responses section click Add a response.
+9. Choose ```String``` as the type. Fuse Online automatically completes the type ```String``` as ```String```.
 
-In the window that appears choose 200 OK as the option.
+![Login](images/CreateContactRequestResponse.png)
 
-Click Add.
+10. Click Save in the top right corner of the page to save your work. The New Integration wizard is displayed.
 
-Click No description beside the 200 OK response and enter the following in the Description field:
+11. Click Next.
 
-Greeting response
+### Creating a GET Resource Path
 
-Choose String as the type. Fuse Online automatically completes the type String as String.
+1. 
 
-Click Save in the top right corner of the page to save your work. The New Integration wizard is displayed.
-
-Click Next.
 
 Click Publish on the New Integration wizard screen.
 
