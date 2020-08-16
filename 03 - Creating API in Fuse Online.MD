@@ -27,32 +27,39 @@ It should say ```Database has been successfully validated.```
 
 ![Login](images/CreateIntegration.png)
 
-5. Click the Create Integration button to start the New Integration wizard.
+5. Choose **API Provider** on the subsequent Choose a Start Connection screen.
 
-Choose API Provider on the subsequent Choose a Start Connection screen.
+![Login](images/ChooseAPIProvider.png)
 
-When prompted choose Create and click Next to navigate to the API Designer.
+6. When prompted choose **Create** and click **Next** to navigate to the API Designer.
 
-Rename your API from "Untitled API" to:
+![Login](images/CreateAPI.png)
 
-Greeting API
+7. Rename your API and description. from "Untitled API" to:
+```
+APIName : Contact API
+Description: My Contact API
+```
 
-Edit the Description:
+![Login](images/RenameAPI.png)
 
-My greeting API
+8. Click Add a data type under the Data Types heading on the left of the API Designer screen.
 
-Click Add a data type under the Data Types heading on the left of the API Designer screen.
+![Login](images/CreateDataType.png)
 
-In the Enter Basic Information section enter the following in the Name field:
+9. In the Enter Basic Information section enter the following in the Name field:
 
-Name
-
+```
+Name: Contact
+```
 Enter the following JSON in the Enter JSON Example field:
 
+```
+{"firstName": "John", "lastName": "Doe", "companyName": "Red Hat"}
+```
+![Login](images/ContactDataType1.png)
 
-{    "name": "shadowman"}
-
-Scroll down and click Save.
+10. Scroll down and click Format and Save.
 
 Check your workCheck your work
 Is </> Name listed under the Data Types on the API Designer screen?
