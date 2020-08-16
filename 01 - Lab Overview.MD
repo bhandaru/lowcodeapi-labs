@@ -24,9 +24,12 @@ Following a design first approach to API development is self-documenting, and pr
 
 ## Tasks to complete this Solution Pattern - 70minutes
 
+## Launch this link in a separate browser window: [Get Started][1]
 
 <p align="center">
   <a href="/README.md">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
   &nbsp;<a href="/02%20-%20Installing%20Client.MD">Next Exercise</a>
 </p>
+
+[1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
