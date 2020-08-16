@@ -140,3 +140,15 @@ Check your work
 Yes
 
 No
+
+____
+## Congratulations you have completed this lab!
+____
+
+<p align="center">
+  <a href="/04%20-%20Implement%20Operations.MD">Previous Exercise</a> &nbsp;|
+  &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;
+</p>
+
+[1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
+[2]: https://fuse-2dd27faf-dfda-11ea-a6a0-0a580a010007.apps.dfw-7226.example.opentlc.com/
