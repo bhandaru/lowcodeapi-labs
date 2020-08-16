@@ -57,28 +57,26 @@ Enter the following JSON in the Enter JSON Example field:
 ```
 {"firstName": "John", "lastName": "Doe", "companyName": "Red Hat"}
 ```
-![Login](images/ContactDataType1.png)
+![Login](images/ContactDataType.png)
 
 10. Scroll down and click Format and Save.
 
-Check your workCheck your work
-Is </> Name listed under the Data Types on the API Designer screen?
+11. Check your workCheck your work. Is ```</>Contact``` listed under the Data Types on the API Designer screen?
 
-Check your work
 
-Yes
+### Creating a POST Resource Path
 
-No
-2.2. Creating a POST Resource Path
 A Path represents an API endpoint/operation and the associated parameters required to invoke it.
 
-Click Add a path under the Paths heading on the left of the API Designer screen.
+1. Click Add a path under the Paths heading on the left of the API Designer screen.  
+![Login](images/CreatePaths.png)
 
-In the window that appears, enter the following in the Path field:
+2. In the window that appears, enter the following in the Path field. Click Add to confirm your entry.
+```
+/createContact
+```
+![Login](images/createContactPath.png)
 
-/greeting
-
-Click Add to confirm your entry.
 
 Click your new /greeting endpoint under the Paths heading.
 
