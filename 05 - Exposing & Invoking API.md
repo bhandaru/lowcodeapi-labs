@@ -1,5 +1,5 @@
 # Exposing and invoking the API
-
+___
 ## API Management Login
 
 1. Open the [Red Hat 3scale API Management Platform][3]: Login screen. Select the Red Hat Single Sign On option. This triggers an OAuth Flow and redirects you back to the Red Hat 3scale API Management Platform Dashboard.
@@ -14,7 +14,7 @@ Dismiss the How does 3Scale work? option which is displayed the first time you l
 Check your workCheck your work
 Can you see the Red Hat 3scale API Management Platform Dashboard and navigate the main menu?
 
-
+___
 ## Adding the App Endpoint to Red Hat 3scale
 
 1. From the APIs section of the Dashboard, select the New Product item.
@@ -39,74 +39,90 @@ ___
 
 ## Edit the API:
 
-1. Choose Product: i-greeting-api from the top navigation menu to view the Overview page.
+1. Choose Product: i-greeting-api from the top navigation menu to view the ```Overview``` page.
 
-2. Select the Settings item in the Integration dropdown menu.
+![Login](images/AddedProduct.png)
 
-In the Staging Public Base URL, enter:
+2. Select the ```Settings``` item in the ```Integration``` dropdown menu. In the Staging Public Base URL, enter the URL below and click ```Update Product``` at the bottom of the page.
 
+```
 https://wt3-evals02-3scale.apps.dfw-7226.example.opentlc.com
+```
 
-Click Update Product at the bottom of the page.
+![Login](images/StagingURL.png)
 
-Create a mapping rule for the /greeting endpoint.
+3. Create a mapping rule for the /createContact endpoint. Select the Mapping Rules item in the Integration dropdown menu. Click Add Mapping Rule
 
-Select the Mapping Rules item in the Integration dropdown menu.
+![Login](images/AddMappingRules.png)
 
-Click Add Mapping Rule
+4.Select ```POST``` in the Verb field. Enter ```/createContact``` in the Pattern field.
 
-Select POST in the Verb field
-
-Enter /greeting in the Pattern field
+![Login](images/MappingRule1.png)
 
 Click Create Mapping Rule at the bottom of the page
 
-Check your workCheck your work
+5. Similarly add a Mapping rule for ```/listContacts``` ```GET``` method. Select ```GET``` in the Verb field. Enter ```/listContacts``` in the Pattern field.
+
+![Login](images/MappingRule2.png)
+
+Click Create Mapping Rule at the bottom of the page
+
+
+6. Check your workCheck your work
 Is the new mapping rule visible from the Mapping Rules screen?
 
-Check your work
+___
+## Configuring your API
 
-Yes
+### Create a new Application Plan:
 
-No
-4.3. Configuring your API
-Create a new Application Plan:
+1. Select Applications > Application Plans from the side navigation. Click ```Create Application Plan```.
 
-Select Applications > Application Plans from the side navigation.
+![Login](images/CreateApplicationPlan.png)
 
-Select Create Application Plan.
+2. Enter the following for Name and System name. Leave the other fields with their default values.
 
-Enter the following for Name and System name:
+  ```
+  Contact-API
+  ```
+  ![Login](images/CreatingAppPlan.png)
+  
+  Select Create Application Plan. You will be redirected to the Application Plans screen.
 
-low-code
+3. Click Publish, beside your plan list item, to publish the Plan.
 
-Leave the other fields with their default values.
+![Login](images/CreatedAppPlan.png)
 
-Select Create Application Plan. You will be redirected to the Application Plans screen.
+4. Create a new Application for the Developer Group, assigned to the Plan.  Select Audience from the top navigation menu.
 
-Click Publish, beside your plan list item, to publish the Plan.
+![Login](images/ChooseAudince.png)
 
-Create a new Application for the Developer Group, assigned to the Plan:
+5. Select the Developer Account to open the Account Summary page.
 
-Select Audience from the top navigation menu.
+![Login](images/Accounts.png)
 
-Select the Developer Account to open the Account Summary page.
+6. Select the (num) Application item from the breadcrumb to view Applications.
 
-Select the (num) Application item from the breadcrumb to view Applications.
+![Login](images/AccountApps.png)
 
-Select the Create Application button in the top right.
+7. Select the Create Application button in the top right.
 
-Select the low-code Plan in the Application plan menu.
+![Login](images/CreateAccountApp.png)
 
-Enter the following for Name and Description:
+8. Select the ```Contact-API``` Plan in the Application plan menu. Enter the following for Name and Description and select ```Create Application```.
 
-low-code-app
+```
+Contact-API
+```
 
-Select Create Application.
+![Login](images/CreatingAccountApp.png)
 
-Set a custom User Key for the application:
 
-On the low-code application screen you were redirected to, scroll to the API Credentials section.
+10. Set a custom User Key for the application:
+
+![Login](images/CreatedAccountApp.png)
+
+16. On the low-code application screen you were redirected to, scroll to the API Credentials section.
 
 Click the green pencil icon beside the User Key
 
