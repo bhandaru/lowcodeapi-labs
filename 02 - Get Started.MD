@@ -14,3 +14,11 @@ Password: peTG3NvNzcTK1bi
 
 ![Login](images/GetStartedLowCode.png)
 
+
+3. The Fuse Online and 3Scale environment for the labs will now be provisioned. You should see a progress bar of it as shown in the screen below. Wait till it completes.
+
+![Login](images/FuseOnlineProvisioning.png)
+
+4. Close the browser tab.
+
+5. Open [Fuse Online console][2] by opening the link.
