@@ -1,4 +1,4 @@
-# Lowcode API Development Labs  
+# Low code API Development Labs  
 
 
 ## Chapters  
