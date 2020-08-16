@@ -19,7 +19,7 @@ Password: peTG3NvNzcTK1bi
    - Rename the connection object by clicking on the ```Pencil``` icon.  
    - Click ```Edit``` button to validate the connection details.  
 
-It should say ```Database has been successfully validated.```
+   It should say ```Database has been successfully validated.```
 
 ![Login](images/ContactsDBCreated.png)
 
