@@ -14,14 +14,20 @@ Password: peTG3NvNzcTK1bi
 
 ![Login](images/CreateDBConnection.png)
 
-3. Choose ```PostgresDB``` database connection to set the DB values. Note that this is already populated with the values. Rename the connection object by clicking on the ```Pencil``` icon. Click ```Edit``` button to validate the connection details. It should say ```Database has been successfully validated.```.
+3. Choose ```PostgresDB``` database connection to set the DB values. Note that this is already populated with the values. 
+   - Leave the default values. Do not change.  
+   - Rename the connection object by clicking on the ```Pencil``` icon.  
+   - Click ```Edit``` button to validate the connection details.  
+
+It should say ```Database has been successfully validated.```
 
 ![Login](images/ContactsDBCreated.png)
 
+4. Choose Integrations from the left navigation menu. Click the Create Integration button to start the New Integration wizard.
 
-Choose Integrations from the left navigation menu.
+![Login](images/CreateIntegration.png)
 
-Click the Create Integration button to start the New Integration wizard.
+5. Click the Create Integration button to start the New Integration wizard.
 
 Choose API Provider on the subsequent Choose a Start Connection screen.
 
