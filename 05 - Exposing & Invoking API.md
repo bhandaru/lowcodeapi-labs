@@ -43,10 +43,10 @@ ___
 
 ![Login](images/AddedProduct.png)
 
-2. Select the ```Settings``` item in the ```Integration``` dropdown menu. In the Staging Public Base URL, enter the URL below and click ```Update Product``` at the bottom of the page.
+2. Select the ```Settings``` item in the ```Integration``` dropdown menu. In the Staging Public Base URL, enter the URL below and click ```Update Product``` at the bottom of the page. Remember to replace XX with your assigned ID.
 
 ```
-https://wt3-evals02-3scale.apps.dfw-7226.example.opentlc.com
+https://wt3-evalsXX-3scale.apps.dfw-7226.example.opentlc.com
 ```
 
 ![Login](images/StagingURL.png)
