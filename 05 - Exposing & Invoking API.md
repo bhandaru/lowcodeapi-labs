@@ -109,10 +109,10 @@ ___
 
 ![Login](images/CreateAccountApp.png)
 
-8. Select the ```Contact-API``` Plan in the Application plan menu. Enter the following for Name and Description and select ```Create Application```.
+8. Select the ```Contact-API-XX``` Plan in the Application plan menu. Enter the following for Name and Description and select ```Create Application```. Remember to replace XX with the user ID assigned to you at the beginning of this lab.
 
 ```
-Contact-API
+Contact-API-XX
 ```
 
 ![Login](images/CreatingAccountApp.png)
