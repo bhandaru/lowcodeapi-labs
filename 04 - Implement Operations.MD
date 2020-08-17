@@ -91,7 +91,6 @@ select first_name, last_name, company from contact
 ____
 ## Congratulations you have completed this exercise! Proceed to the next exercise.
 ____
-
 <p align="center">
   <a href="/03%20-%20Creating%20API%20in%20Fuse%20Online.MD">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
@@ -100,3 +99,4 @@ ____
 
 [1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
 [2]: https://fuse-2dd27faf-dfda-11ea-a6a0-0a580a010007.apps.dfw-7226.example.opentlc.com/
+[3]: https://3scale-admin.apps.dfw-7226.example.opentlc.com/
