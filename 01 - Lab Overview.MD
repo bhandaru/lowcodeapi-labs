@@ -21,11 +21,11 @@ A standard, programming language-agnostic interface description for REST APIs. R
 In this Solution Pattern you follow a design-first approach, based on the OpenAPI specification, to define a RESTful API that accepts a name parameter and echoes it back in the response body. You then use the resulting Open API definition to generate the code for your API and deploy it in a containerised environment.
 
 Following a design first approach to API development is self-documenting, and provides a clear API definition for partners and end-users of your API. It also allows you to identify important design decisions prior to coding and deployment.
-
+___
 ## Tasks to complete this Solution Pattern - 70minutes
-
+___
 ## Launch this link in a separate browser window: [Get Started][1]
-
+___
 <p align="center">
   <a href="/README.md">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
@@ -34,3 +34,4 @@ Following a design first approach to API development is self-documenting, and pr
 
 [1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
 [2]: https://fuse-2dd27faf-dfda-11ea-a6a0-0a580a010007.apps.dfw-7226.example.opentlc.com/
+[3]: https://3scale-admin.apps.dfw-7226.example.opentlc.com/
