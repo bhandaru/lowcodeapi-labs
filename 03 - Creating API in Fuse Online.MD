@@ -151,15 +151,15 @@ Operation ID field: listContacts
 
 1. Click Publish on the New Integration wizard screen. 
 
-2. When prompted to Give this integration a name.
+2. When prompted to Give this integration a name. Remember to replace XX below with the user ID assigned at the beginning of this lab.
 
     - Enter the following in the Integration Name field:
       ```
-      Contact API Integration
+      Contact-API-Integration-XX
       ```
     - Enter the following in the Description field:
       ```
-      My Contact API
+      Contact-API-Integration-XX
       ```
 
 3. Click Save and Publish to save your API design.
