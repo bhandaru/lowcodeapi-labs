@@ -183,7 +183,8 @@ ____
 
 <p align="center">
   <a href="/04%20-%20Implement%20Operations.MD">Previous Exercise</a> &nbsp;|
-  &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;
+  &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
+  &nbsp;<a href="/06%20-%20Workshop%20Links.MD">Workshop Links</a> &nbsp;
 </p>
 
 [1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
