@@ -122,50 +122,60 @@ Contact-API
 
 ![Login](images/CreatedAccountApp.png)
 
-16. On the low-code application screen you were redirected to, scroll to the API Credentials section.
+16. On the low-code application screen you were redirected to, scroll to the API Credentials section. Click the green pencil icon beside the User Key. In the Set Custom User Key modal dialog, enter the value below and select ```Set Custom Key```.
 
-Click the green pencil icon beside the User Key
-
-In the Set Custom User Key modal dialog, enter:
-
+```
 test
+```
 
-Select Set Custom Key.
+![Login](images/CustomKey.png)
 
-Check your workCheck your work
+___
+## Check your workCheck your work
 Review the settings in 3scale. Do they match the settings outlined in this task?
+___
 
-Check your work
+## Staging your API
 
-Yes
+1. Click the Configuration menu item in the Integration dropdown menu from the side navigation.
 
-No
-4.4. Staging your API
-Click the Configuration menu item in the Integration dropdown menu from the side navigation.
+2. In the APIcast Configuration section, click the Promote to Staging button.
 
-In the APIcast Configuration section, click the Promote to Staging button
+![Login](images/PromoteToStaging.png)
 
-Check your workCheck your work
+___
+## Check your workCheck your work
 Is a new version of the API visible in the Environments section of the page?
+___
+## Check your workCheck your work
+___
+## Invoking the /listContacts API
+___
 
-Check your work
+1. Use an HTTP client to invoke the route, /listContacts for example:
 
-Yes
+```
+curl -d '{"name":"John"}' -H "Content-Type: application/json" -X GET "https://wt3-evals02-3scale.apps.dfw-7226.example.opentlc.com:443/listContacts?user_key=test"
+```
 
-No
-4.5. Invoking the API
-Use an HTTP client to invoke the route, for example:
+Did you receive contact list?
 
-curl -d '{"name":"John"}' -H "Content-Type: application/json" -X POST "https://wt3-evals02-3scale.apps.dfw-7226.example.opentlc.com/greeting?user_key=test"
+___
+## Invoking the /createContact API
+___
+1. Use an HTTP client to invoke the route, /createContact for example:
 
-Check your workCheck your work
-Did the message "Hello from John appear in your Slack channel?
+```
+curl -d '{"companyName": "Red Hat", "firstName": "Banu","lastName": "B"}' -H "Content-Type: application/json" -X POST "https://wt3-evals02-3scale.apps.dfw-7226.example.opentlc.com:443/createContact?user_key=test"
+```
 
-Check your work
+2. Check if the ```/listContacts``` method retrieves the data used in ```/createContact``` test.
 
-Yes
+___
+## Track and monitor API Usage.
+___
 
-No
+![Login](images/APIAnalytics.png)
 
 ____
 ## Congratulations you have completed this lab!
