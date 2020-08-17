@@ -177,10 +177,10 @@ ___
 
 ![Login](images/APIAnalytics.png)
 
-____
+___
 ## Congratulations you have completed this lab!
-____
 
+___
 <p align="center">
   <a href="/04%20-%20Implement%20Operations.MD">Previous Exercise</a> &nbsp;|
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;|
