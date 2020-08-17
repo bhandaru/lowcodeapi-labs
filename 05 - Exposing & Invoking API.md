@@ -80,10 +80,10 @@ ___
 
 ![Login](images/CreateApplicationPlan.png)
 
-2. Enter the following for Name and System name. Leave the other fields with their default values.
+2. Enter the following for Name and System name. Leave the other fields with their default values. Remember to replace XX with your user ID assined at the beginning of this lab.
 
   ```
-  Contact-API
+  Contact-API-XX
   ```
   ![Login](images/CreatingAppPlan.png)
   
