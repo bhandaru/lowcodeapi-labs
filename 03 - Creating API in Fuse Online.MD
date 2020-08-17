@@ -35,9 +35,9 @@ Password: peTG3NvNzcTK1bi
 
 ![Login](images/CreateAPI.png)
 
-7. Rename your API and description. from "Untitled API" to:
+7. Rename your API and description from "Untitled API" to as below. Remember to replace XX with ID assigned to you for this lab.
 ```
-APIName : Contact API
+APIName : Contact-API-XX
 Description: My Contact API
 ```
 
