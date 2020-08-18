@@ -7,7 +7,7 @@ In this procedure, you create an integration with an API and include a data type
 1. Log in to the Red Hat [Fuse Online Console][2] if you are already not. Ensure you use your username assinged to you.
 ```
 Username: evalsXX
-Password: peTG3NvNzcTK1bi
+Password: k6Br6RpcmskQk4Y
 ```
 
 2. Choose ```Connections``` link from the left navigation  menu to create a new Database connection.
@@ -178,6 +178,6 @@ ___
   &nbsp;<a href="/04%20-%20Implement%20Operations.MD">Next Exercise</a>
 </p>
  
-[1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
-[2]: https://fuse-2dd27faf-dfda-11ea-a6a0-0a580a010007.apps.dfw-7226.example.opentlc.com/
-[3]: https://3scale-admin.apps.dfw-7226.example.opentlc.com/
+[1]: https://tutorial-web-app-webapp.apps.dfw-5ff5.example.opentlc.com
+[2]: https://fuse-b9c0472d-e149-11ea-b6ca-0a580a010007.apps.dfw-5ff5.example.opentlc.com/
+[3]: https://3scale-admin.apps.dfw-5ff5.example.opentlc.com/
