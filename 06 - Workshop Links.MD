@@ -8,7 +8,7 @@ Password: k6Br6RpcmskQk4Y
 ```
 
 ## Get your username  
-Open the link http://etherpad-lab.apps.cluster-dfw-8130.dfw-8130.example.opentlc.com/p/workshop. Grab any available username and put your name against it.
+Open the link http://etherpad-etherpad1.apps.dfw-5ff5.example.opentlc.com/p/tM8EFTasQs. Grab any available username and put your name against it.
 
 
 You can find all urls, hostnames, usernames and passwords that are needed during the workshop in this page. Note that the urls are also embedded inside the labs so that you don’t have to go back and forth between this page and the labs.  
