@@ -95,7 +95,7 @@ ___
 
 4. Create a new Application for the Developer Group, assigned to the Plan.  Select Audience from the top navigation menu.
 
-![Login](images/ChooseAudince.png)
+![Login](images/ChooseAudience.png)
 
 5. Select the Developer Account to open the Account Summary page.
 
