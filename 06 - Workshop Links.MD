@@ -4,7 +4,7 @@ There are 50 users created for this workshop. **evals50 is dedicated to the inst
 
 ```
 Username: evalsXY
-Password: peTG3NvNzcTK1bi
+Password: k6Br6RpcmskQk4Y
 ```
 
 ## Get your username  
@@ -15,13 +15,13 @@ You can find all urls, hostnames, usernames and passwords that are needed during
 
 ## OpenShift Cluster Information
 
-OpenShift cluster URL: https://master.dfw-7226.example.opentlc.com:443
+OpenShift cluster URL: https://master.dfw-5ff5.example.opentlc.com:443
 
 
-Openshift Master Console: https://master.dfw-7226.example.opentlc.com/console 
+Openshift Master Console: https://master.dfw-5ff5.example.opentlc.com/console
 
 
-Openshift API for command line 'oc' client: https://master.dfw-7226.example.opentlc.com:6443
+Openshift API for command line 'oc' client: https://master.dfw-5ff5.example.opentlc.com:6443
 
 Download oc client from https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.4.8/openshift-client-linux-4.4.8.tar.gz
 
@@ -32,13 +32,13 @@ Repo URL: https://github.com/bhandaru/lowcodeapi-labs
 
 ### Extra labs
 
-https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
+https://tutorial-web-app-webapp.apps.dfw-5ff5.example.opentlc.com
 
 ___
 <p align="center">
   &nbsp;<a href="/README.md">Table of Contents</a> &nbsp;
 </p>  
 
-[1]: https://tutorial-web-app-webapp.apps.dfw-7226.example.opentlc.com/
-[2]: https://fuse-2dd27faf-dfda-11ea-a6a0-0a580a010007.apps.dfw-7226.example.opentlc.com/
-[3]: https://3scale-admin.apps.dfw-7226.example.opentlc.com/
+[1]: https://tutorial-web-app-webapp.apps.dfw-5ff5.example.opentlc.com
+[2]: https://fuse-b9c0472d-e149-11ea-b6ca-0a580a010007.apps.dfw-5ff5.example.opentlc.com/
+[3]: https://3scale-admin.apps.dfw-5ff5.example.opentlc.com/
