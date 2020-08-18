@@ -46,7 +46,7 @@ ___
 2. Select the ```Settings``` item in the ```Integration``` dropdown menu. In the Staging Public Base URL, enter the URL below and click ```Update Product``` at the bottom of the page. Remember to replace XX with your assigned ID.
 
 ```
-https://wt3-evalsXX-3scale.apps.dfw-7226.example.opentlc.com
+https://wt3-evalsXX-3scale.apps.dfw-5ff5.example.opentlc.com
 ```
 
 ![Login](images/StagingURL.png)
@@ -155,7 +155,7 @@ ___
 1. Use an HTTP client to invoke the route, /listContacts for example:
 
 ```
-curl -H "Content-Type: application/json" -X GET "https://wt3-evals02-3scale.apps.dfw-7226.example.opentlc.com:443/listContacts?user_key=test"
+curl -H "Content-Type: application/json" -X GET "https://wt3-evalsXX-3scale.apps.dfw-5ff5.example.opentlc.com:443/listContacts?user_key=test"
 ```
 
 Did you receive contact list?
@@ -166,7 +166,7 @@ ___
 1. Use an HTTP client to invoke the route, /createContact for example:
 
 ```
-curl -d '{"companyName": "Red Hat", "firstName": "Banu","lastName": "B"}' -H "Content-Type: application/json" -X POST "https://wt3-evals02-3scale.apps.dfw-7226.example.opentlc.com:443/createContact?user_key=test"
+curl -d '{"companyName": "Red Hat", "firstName": "Banu","lastName": "B"}' -H "Content-Type: application/json" -X POST "https://wt3-evalsXX-3scale.apps.dfw-5ff5.example.opentlc.com:443/createContact?user_key=test"
 ```
 
 2. Check if the ```/listContacts``` method retrieves the data used in ```/createContact``` test.
