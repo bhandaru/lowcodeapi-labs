@@ -155,7 +155,7 @@ ___
 1. Use an HTTP client to invoke the route, /listContacts for example:
 
 ```
-curl -H "Content-Type: application/json" -X GET "https://wt3-evalsXX-3scale.apps.dfw-5ff5.example.opentlc.com:443/listContacts?user_key=test"
+curl -H "Content-Type: application/json" -X GET "https://wt3-evalsXX-3scale.apps.dfw-d3a7.example.opentlc.com:443/listContacts?user_key=test"
 ```
 
 Did you receive contact list?
