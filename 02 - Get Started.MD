@@ -4,7 +4,7 @@
 
 ```
 Username: evalsXX
-Password: k6Br6RpcmskQk4Y
+Password: 4lv6ZeHZUR4Pdzy
 ```
 
 ![Login](images/LoginToFuseOnline.png)
