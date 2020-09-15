@@ -4,7 +4,7 @@ There are 50 users created for this workshop. **evals50 is dedicated to the inst
 
 ```
 Username: evalsXY
-Password: k6Br6RpcmskQk4Y
+Password: 4lv6ZeHZUR4Pdzy
 ```
 
 ## Get your username  
