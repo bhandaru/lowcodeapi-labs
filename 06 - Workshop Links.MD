@@ -27,7 +27,7 @@ Openshift Master Console: https://master.dfw-d3a7.example.opentlc.com/console
 
 Openshift API for command line 'oc' client: https://master.dfw-d3a7.example.opentlc.com:6443
 
-Download oc client from https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.4.8/openshift-client-linux-4.4.8.tar.gz
+<!--- Download oc client from https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.4.8/openshift-client-linux-4.4.8.tar.gz -->
 
 ### Labs github repo URL
 
