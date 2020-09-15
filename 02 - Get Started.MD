@@ -32,6 +32,6 @@ ___
   &nbsp;<a href="/03%20-%20Creating%20API%20in%20Fuse%20Online.MD">Next Exercise</a>
 </p>
 
-[1]: https://tutorial-web-app-webapp.apps.dfw-5ff5.example.opentlc.com
-[2]: https://fuse-b9c0472d-e149-11ea-b6ca-0a580a010007.apps.dfw-5ff5.example.opentlc.com/
-[3]: https://3scale-admin.apps.dfw-5ff5.example.opentlc.com/
+[1]: https://tutorial-web-app-webapp.apps.dfw-d3a7.example.opentlc.com
+[2]: https://fuse-b9c0472d-e149-11ea-b6ca-0a580a010007.apps.dfw-d3a7.example.opentlc.com/
+[3]: https://3scale-admin.apps.dfw-d3a7.example.opentlc.com/
