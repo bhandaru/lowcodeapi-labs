@@ -10,7 +10,7 @@ Password: 4lv6ZeHZUR4Pdzy
 ## Get your username  
 Open the link below
 
-http://etherpad-etherpad1.apps.dfw-d3a7.example.opentlc.com/p/tM8EFTasQs. 
+http://etherpad-notepad.apps.dfw-d3a7.example.opentlc.com/p/tcs_09152020
 
 Grab any available username by putting your name against it. **Do not overwrite others userids**
 
